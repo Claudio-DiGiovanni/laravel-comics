@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home', [
         'menu' => config('menu'),
+        'link' => config('link'),
     ]);
 })->name('home');
 
@@ -23,5 +24,6 @@ Route::get('/comics', function () {
     return view('comics', [
         'menu' => config('menu'),
         'comics' => config('comics'),
+        'link' => config('link'),
     ]);
 })->name('comics');

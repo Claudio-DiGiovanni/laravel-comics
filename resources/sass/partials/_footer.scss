@@ -1,0 +1,33 @@
+
+  h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  ul{
+    list-style: none;
+    width: 120px;
+  }
+  a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+  }
+  .container{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+  }
+  .link-footer{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  img{
+    width: 600px;
+  }

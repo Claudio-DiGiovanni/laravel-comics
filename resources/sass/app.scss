@@ -17,3 +17,14 @@ header{
 main{
     @import 'partials/comics';
 }
+
+footer{
+    background-image: url('/img/footer-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    @import 'partials/footer';
+}

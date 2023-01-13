@@ -129,3 +129,45 @@ main .prefooter span {
   font-size: 18px;
   text-transform: uppercase;
 }
+
+footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+}
+footer h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+footer ul {
+  list-style: none;
+  width: 120px;
+}
+footer a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+}
+footer .container {
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+footer .link-footer {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+footer img {
+  width: 600px;
+}
