@@ -18,3 +18,10 @@ Route::get('/', function () {
         'menu' => config('menu'),
     ]);
 })->name('home');
+
+Route::get('/comics', function () {
+    return view('comics', [
+        'menu' => config('menu'),
+        'comics' => config('comics'),
+    ]);
+})->name('comics');

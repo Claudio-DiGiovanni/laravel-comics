@@ -1,8 +1,9 @@
-header * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 header header {
   width: 100%;
   height: 7rem;
@@ -43,4 +44,61 @@ header li {
 }
 header li :hover {
   border-bottom: 2px solid blue;
+}
+header .jumbotron {
+  width: 100%;
+  height: 25rem;
+  background-image: url("/img/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+main main {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .container {
+  margin: 4rem 0;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+}
+main .card {
+  flex: 0 0 16.6666666667%;
+}
+main h1 {
+  position: absolute;
+  color: white;
+  background-color: #0282f9;
+  text-transform: uppercase;
+  padding: 1rem;
+  top: -6rem;
+  left: -6rem;
+}
+main button {
+  background-color: #0282f9;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5rem 3rem;
+  margin: 2rem 0 1rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+main .card .contents {
+  height: 100%;
+}
+main .card .contents img {
+  padding: 1rem;
+  max-width: 90%;
+}
+main .card .contents h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
 }
