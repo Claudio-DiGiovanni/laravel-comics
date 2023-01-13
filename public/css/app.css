@@ -1,7 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
 }
 
 header header {
@@ -101,4 +106,26 @@ main .card .contents h2 {
   font-size: 18px;
   text-transform: uppercase;
   color: white;
+}
+main .prefooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0282f9;
+  height: 10rem;
+}
+main .prefooter img {
+  width: 50px;
+}
+main .prefooter .container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .prefooter span {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
 }

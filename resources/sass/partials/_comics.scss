@@ -50,3 +50,26 @@ main{
       }
     }
   }
+
+  .prefooter{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0282f9;
+        height: 10rem;
+      img{
+        width: 50px;
+      }
+      .container{
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      span{
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+  }
