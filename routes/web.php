@@ -27,3 +27,59 @@ Route::get('/comics', function () {
         'link' => config('link'),
     ]);
 })->name('comics');
+
+Route::get('/characters', function () {
+    return view('characters', [
+        'menu' => config('menu'),
+        'link' => config('link'),
+    ]);
+})->name('characters');
+
+Route::get('/movies', function () {
+    return view('movies', [
+        'menu' => config('menu'),
+        'link' => config('link'),
+    ]);
+})->name('movies');
+
+Route::get('/tv', function () {
+    return view('tv', [
+        'menu' => config('menu'),
+        'link' => config('link'),
+    ]);
+})->name('tv');
+
+Route::get('/games', function () {
+    return view('games', [
+        'menu' => config('menu'),
+        'link' => config('link'),
+    ]);
+})->name('games');
+
+Route::get('/collectibles', function () {
+    return view('collectibles', [
+        'menu' => config('menu'),
+        'link' => config('link'),
+    ]);
+})->name('collectibles');
+
+Route::get('/videos', function () {
+    return view('videos', [
+        'menu' => config('menu'),
+        'link' => config('link'),
+    ]);
+})->name('videos');
+
+Route::get('/fans', function () {
+    return view('fans', [
+        'menu' => config('menu'),
+        'link' => config('link'),
+    ]);
+})->name('fans');
+
+Route::get('/shop', function () {
+    return view('shop', [
+        'menu' => config('menu'),
+        'link' => config('link'),
+    ]);
+})->name('shop');

@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 html{
@@ -18,6 +19,10 @@ main{
     @import 'partials/comics';
 }
 
+.homepage{
+    @import 'partials/homepage';
+}
+
 footer{
     background-image: url('/img/footer-bg.jpg');
     background-position: center;
@@ -28,3 +33,34 @@ footer{
     justify-content: center;
     @import 'partials/footer';
 }
+.buttons{
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    .container{
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+      }
+      button{
+        color: white;
+        text-transform: uppercase;
+        border: 2px solid #0282f9;
+        background-color: #303030;
+        font-weight: 600;
+        padding: .5rem;
+      }
+      .social{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+      span{
+        color: #0282f9;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 700;
+      }
+
+  }

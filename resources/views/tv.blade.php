@@ -3,7 +3,7 @@
 @section('content')
     <main class="homepage">
         <div class="container">
-            <h1>homepage</h1>
+            <h1>tv</h1>
             <p style="color: white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ex eligendi doloribus minus. Facere eaque nam sunt accusamus quidem culpa perspiciatis, veritatis impedit et ea, porro officia ex labore quis!
             Accusantium explicabo aspernatur molestias voluptatibus velit omnis quibusdam veniam nemo corrupti inventore impedit unde doloribus ipsa, consequuntur incidunt rem aliquam dolor mollitia dolore? Labore, officia earum. Tempore ipsa laudantium corporis?
             Id neque autem ea placeat quibusdam. Nobis dolor eos nostrum, incidunt omnis totam numquam odio facere ipsum temporibus harum dolore odit sit, unde dignissimos a atque libero porro, recusandae soluta.

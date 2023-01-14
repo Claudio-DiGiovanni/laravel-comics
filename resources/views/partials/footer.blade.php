@@ -14,3 +14,16 @@
       <img src="{{asset('/img/dc-logo-bg.png')}}" alt="">
     </div>
   </footer>
+  <div class="buttons">
+    <div class="container">
+      <button>sign-up now!</button>
+      <div class="social">
+        <span>follow us</span>
+        <img src="{{asset('/img/footer-facebook.png')}}" alt="">
+        <img src="{{asset('/img/footer-twitter.png')}}" alt="">
+        <img src="{{asset('/img/footer-youtube.png')}}" alt="">
+        <img src="{{asset('/img/footer-pinterest.png')}}" alt="">
+        <img src="{{asset('/img/footer-periscope.png')}}" alt="">
+      </div>
+    </div>
+  </div>
